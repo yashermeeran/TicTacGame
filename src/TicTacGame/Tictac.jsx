@@ -19,7 +19,7 @@ export default function Tictac() {
   const isDraw = !winner && squares.every((square) => square !== null);
 
   let status;
-  if (winner === "x") {
+  if (winner === "x") { 
     status = "Player A has won the game!";
   } else if (winner === "o") {
     status = "Player B has won the game!";
