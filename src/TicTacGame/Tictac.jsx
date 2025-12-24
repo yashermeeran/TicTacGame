@@ -36,7 +36,7 @@ export default function Tictac() {
 
   return (
     <div className="game">
-      <h1 className="title">TIC TAC GAME</h1>
+      <h2 className="title">TIC TAC GAME</h2>
       <p className="status">{status}</p>
 
       <div className="board">
